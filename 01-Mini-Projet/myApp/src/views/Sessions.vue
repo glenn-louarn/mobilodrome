@@ -8,7 +8,6 @@
 
     <ion-content>
         <div v-for="session in sessions"  :key="session.id">
-
                 <ion-button :href="'/session/'+session.id" :router-link="'/session/'+session.id">{{session.title}}</ion-button>
         </div>
     </ion-content>

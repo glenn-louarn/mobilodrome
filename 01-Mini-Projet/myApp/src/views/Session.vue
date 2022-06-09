@@ -21,14 +21,16 @@
                 <h3>{{speaker.company}}</h3>
             </ion-label>
         </ion-item>
-
+        <ion-button>
+            Mes notes
+        </ion-button>
     </ion-content>
 </ion-page>
 </template>
 
 <script lang="ts">
 import { defineComponent, onMounted, ref } from "vue";
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import {  IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import { useRoute } from 'vue-router'
 
 export default defineComponent({
