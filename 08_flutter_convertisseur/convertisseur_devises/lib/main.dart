@@ -15,3 +15,5 @@ class MonApplication extends StatelessWidget {
             )));
   }
 }
+
+void main() => runApp(MonApplication());
